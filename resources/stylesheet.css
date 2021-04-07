@@ -76,16 +76,6 @@ nav ul li a:hover {
     background-size: cover;
     position: fixed;
 }
-/*  experimented with overlaying image
-.hero-overlay {
-    background-image: url("../resources/zack-valleyoffire\ -\ Copy\ \(2\).JPG");
-    width: 100%;
-    height: 20vh;
-    background-size: cover;
-    position: fixed;
-    z-index: 5
-}
-*/
 
 main {
     position: relative;
@@ -103,6 +93,10 @@ section h2 {
     text-decoration: underline;
     padding: 40px 0;
     width: 100%;
+}
+
+.hide {
+    display: none;
 }
 
 .contact ul li {
