@@ -4,9 +4,7 @@ function showSection(navButton) {
     $.each(sections, function() {
         let sectionId = $(this).attr('id');
         if (navButton == sectionId ) {
-            var thing = $(this)
-            console.log(thing)
-            $(this).show("slide", 1000);
+            $(this).show("slide", 800);
         }
     }) 
 }
