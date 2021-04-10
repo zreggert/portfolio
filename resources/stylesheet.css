@@ -279,8 +279,8 @@ section h2 {
         border: none;
     }
 
-    nav ul li .nav-btn-mobile:hover {
-        color: #36454f; 
+    nav ul li .nav-btn-mobile:active {
+        color: whitesmoke;
     }
 
     nav ul li .nav-btn-mobile:visited {
