@@ -195,18 +195,22 @@ section h2 {
     display: none;
 }
 
+.mobile-hero {
+    display: none;
+}
 
 
 
 @media only screen and (max-width: 420px) {
     body {
         width:100%;
-        background-color: #4e6172a6
+        /* background-color: #4e6172a6 */
     }
     header {
         position: relative;
         width: 100%;
         padding: 0;
+        color:whitesmoke;
     }
 
     header h1 {
@@ -227,6 +231,15 @@ section h2 {
 
     .hero {
         display: none;
+    }
+
+    .mobile-hero {
+        display: block;
+        background: url("./images/railroad_tracks.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        position: fixed;
     }
 
     main {
@@ -296,8 +309,8 @@ section h2 {
 
     .mobile-img {
         margin-top: 20px;
-        width: 60%;
         display: block;
+        width: 70%;
         border-radius: 15px;
         margin-left: auto;
         margin-right: auto;
