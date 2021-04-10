@@ -221,6 +221,8 @@ section h2 {
     }
 } 
 
+
+
 @media only screen and (max-width: 420px) {
     body {
         width:100%;
@@ -307,11 +309,15 @@ section h2 {
         border: none;
     }
 
-    nav ul li .nav-btn-mobile:active {
+    nav ul li button:active {
         color: whitesmoke;
     }
 
-    nav ul li .nav-btn-mobile:visited {
+    nav ul li button:hover {
+        color: whitesmoke;
+    }
+
+    nav ul li button:visited {
         text-decoration: none;
         color: whitesmoke;
     }
