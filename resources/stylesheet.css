@@ -96,7 +96,7 @@ main {
 }
 
 section {
-    padding: 0 200px 0 100px;
+    padding: 50px 200px 0 100px;
     color: whitesmoke;
     height: calc(100% - 200px);
     width: 85%;
@@ -152,7 +152,7 @@ section h2 {
 }
 
 .project-container img {
-   border-radius: 10px;
+   border-radius: 10px !important;
    width: 500px;
    height: 80%;
 }
