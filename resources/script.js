@@ -1,4 +1,4 @@
-$(document). ready(function() {
+$(document).ready(function() {
 
     // function for the nav buttons
     function showSection(navButton) {
